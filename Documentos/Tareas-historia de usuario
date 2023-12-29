@@ -1,0 +1,109 @@
+#US01 Registro de Usuario:
+
+  #TK01 Crear una página de registro en el sitio web.
+  #TK02 Diseñar un formulario de registro que incluya campos como nombre, dirección de correo electrónico y contraseña.
+  #TK03 Implementar validación de datos para garantizar la integridad de la información proporcionada por el usuario.
+  #TK04 Almacenar la información del usuario en una base de datos segura.
+  #TK05 Enviar un correo de confirmación de registro al usuario.
+
+#US02 Inici  de Sesión:
+
+  #TK06 Crear una página de inicio de sesión en el sitio web.
+  #TK07 Diseñar un formulario de inicio de sesión que solicite correo electrónico y contraseña.
+  #TK08 Implementar un sistema de autenticación seguro para verificar las credenciales del usuario.
+  #TK09 Establecer medidas de seguridad, como el bloqueo de cuentas después de múltiples intentos fallidos.
+  #TK10 Redireccionar al usuario a su panel de control después de una autenticación exitosa.
+
+#US03 Administración de Categorías:
+
+  #TK11 Diseñar una interfaz de administración para categorías de productos.
+  #TK12 Permitir a los administradores crear, editar y eliminar categorías.
+  #TK13 Asociar productos a categorías.
+  #TK14 Proporcionar la capacidad de organizar categorías jerárquicamente si es necesario.
+
+#US04 Gestión del Catálogo de Productos:
+
+  #TK15 Crear una interfaz de administración de productos.
+  #TK16 Permitir a los administradores agregar nuevos productos, editar la información de productos existentes y eliminar productos.
+  #TK17 Implementar un sistema de imágenes de productos.
+  #TK18 Gestionar información detallada de productos, como nombre, descripción, precio, existencias, etc.
+
+#US05 Bloqueo/Eliminación de Cuentas de Usuarios:
+
+  #TK19 Implementar una interfaz de administración de usuarios para los administradores.
+  #TK20 Permitir a los administradores bloquear o eliminar cuentas de usuarios.
+  #TK21 Registrar la acción de bloqueo o eliminación en un registro de auditoría.
+
+#US06 Recuperación de Productos Eliminados:
+
+  #TK22 Crear un sistema de "papelera" para productos eliminados.
+  #TK23 Permitir a los administradores recuperar productos de la papelera.
+  #TK24 Establecer un período de retención en la papelera antes de la eliminación permanente.
+
+#US07 Supervisión de Pedidos:
+
+  #TK25 Diseñar un panel de administración de pedidos.
+  #TK26 Mostrar una lista completa de todos los pedidos realizados en la plataforma.
+  #TK27 Incluir detalles como fecha, cliente, estado del pedido y más.
+
+#US08 Marcar Estados de Pedidos:
+
+  #TK28 Implementar un sistema que permita a los administradores marcar pedidos como "procesados," "enviados," o "entregados."
+  #TK29 Actualizar el estado de los pedidos en tiempo real.
+  #TK30 Notificar a los clientes sobre los cambios en el estado de sus pedidos.
+
+#US09 Visualización de Productos Disponibles:
+
+  #TK31 Crear una página de navegación de productos para compradores.
+  #TK32 Mostrar una lista de todos los productos disponibles con detalles como nombre, precio y categoría.
+
+#US10 Gestión del Carrito de Compras:
+
+  #TK33 Diseñar una interfaz de carrito de compras para compradores.
+  #TK34 Permitir a los compradores agregar, eliminar o modificar productos en su carrito.
+  #TK35 Calcular el total de compra y mostrar un resumen del carrito.
+  
+#US11 Verificación de Disponibilidad de Productos:
+
+  #TK36 Implementar un sistema que verifique la disponibilidad de productos antes de finalizar la compra.
+  #TK37 Notificar a los compradores si un producto está agotado.
+
+#US12 Opciones de Pago:
+
+  #TK38 Ofrecer una variedad de opciones de pago, como tarjetas de crédito, PayPal, transferencia bancaria, etc.
+  #TK39Proporcionar información detallada sobre el proceso de pago.
+
+#US13 Historial de Compras:
+
+  #TK40 Crear una página de historial de compras para los compradores.
+  #TK41 Mostrar una lista de todas las transacciones anteriores del usuario, incluyendo detalles de productos, fechas y precios.
+
+#US14 Información de Envío:
+
+  #TK42 Diseñar un formulario de información de envío que los compradores deben completar antes de finalizar la compra.
+  #TK43 Recopilar detalles como dirección de envío, método de entrega y costos asociados.
+
+#US15 Recepción de Comprobante por Correo Electrónico:
+
+  #TK44 Implementar un sistema que envíe automáticamente un correo electrónico de confirmación de compra a los compradores.
+  #TK45 Incluir un resumen detallado de la transacción en el correo electrónico.
+
+#US16 Búsqueda de Productos por Categoría/Precio:
+
+  #TK46 Crear un sistema de búsqueda que permita a los compradores filtrar productos por categoría y precio.
+  #TK47 Proporcionar opciones de filtro en la página de navegación de productos.
+
+#US17 Calificación y Evaluación de Productos:
+
+  #TK48 Permitir a los compradores calificar y evaluar productos en la plataforma.
+  #TK49 Mostrar calificaciones y reseñas en las páginas de productos para otros compradores.
+
+#US18 Soporte por Correo Electrónico y Chat en Vivo:
+
+  #TK50 Implementar sistemas de soporte por correo electrónico y chat en vivo.
+  #TK51 Capacitar al personal de soporte para responder preguntas y resolver problemas de los compradores en tiempo real.
+
+#US19 Información de Seguimiento de la Compra:
+
+  #TK52 Proporcionar a los compradores información de seguimiento de sus pedidos, como números de seguimiento y fechas estimadas de entrega.
+  #TK53 Ofrecer actualizaciones en tiempo real sobre el estado de los envíos.
