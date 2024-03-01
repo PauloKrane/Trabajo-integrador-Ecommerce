@@ -1,0 +1,22 @@
+thyton 3
+pip:(paquete)
+	-python -m ensurepip --default-pip (instalar)
+	-pip list (lista dependensias imstaladas)
+	-pip --version (version de pip)
+
+venv:(entorno virtual)
+	-python -m venv "nombre" (crea)
+	-nombre\Scripts\activate (activa)
+
+Django: ( framework )
+	-py -m pip install Django (instalar)
+	-python -m django --version (version instalada)
+
+mysqlclient:(paquete de Python  para interactuar con bases de datos MySQL)
+	-pip install mysqlclient 
+
+djangorestframework:(facilita la creación de APIs)
+	-facilita la creación de APIs
+
+CROSS:(Compartir Recursos entre Orígenes Cruzados)
+	-pip install django-cors-headers
